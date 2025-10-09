@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ClienteTCP {
     public static void main(String[] args) {
         String host = "localhost";
-        int puerto = 5000;
+        int puerto = 5050;
 
         try (Socket socket = new Socket(host, puerto)) {
             BufferedReader entrada = new BufferedReader(new InputStreamReader(socket.getInputStream()));

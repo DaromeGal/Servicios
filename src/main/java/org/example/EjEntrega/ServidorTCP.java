@@ -5,10 +5,10 @@ import java.net.*;
 
 public class ServidorTCP {
     public static void main(String[] args) {
-        int puerto = 5000;
+        int puerto = 5050;
 
         try (ServerSocket servidor = new ServerSocket(puerto)) {
-            System.out.println("Servidor TCP escuchando en el puerto " + puerto);
+            System.out.println("Servidor escuchando en el puerto " + puerto);
 
             while (true) {
                 Socket socket = servidor.accept();

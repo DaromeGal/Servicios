@@ -1,4 +1,4 @@
-package org.example;
+package org.example.EjEntrega;
  import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import java.util.Scanner;
             String host = "localhost"; // pepe ==> 10.101.3.86
 
 
-            int puerto = 6000; // puerto remoto
+            int puerto = 5050; // puerto remoto
             Scanner sc = new Scanner(System.in);
             // El server esta en ip 10.101.21.152
             // ABRIR SOCKET

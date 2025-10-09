@@ -1,6 +1,5 @@
-package org.example;
+package org.example.Explicacion;
 
-import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.InetAddress;

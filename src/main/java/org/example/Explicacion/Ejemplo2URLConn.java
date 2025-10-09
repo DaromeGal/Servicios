@@ -1,5 +1,5 @@
 
-package org.example;
+package org.example.Explicacion;
 
 import java.io.BufferedReader;
 import java.io.IOException;
