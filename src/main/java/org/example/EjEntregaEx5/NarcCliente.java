@@ -62,5 +62,5 @@ public class NarcCliente {
 
         System.out.println("Cliente cerrado.");
         socket.close();
-    }
+    }   
 }
